@@ -1,0 +1,21 @@
+[submodule "math"]
+	path = math
+	url = https://github.com/romansen47/math
+[submodule "prcssng-template"]
+	path = prcssng-template
+	url = https://github.com/romansen47/prcssng-template
+[submodule "prcssng-temperature"]
+	path = prcssng-temperature
+	url = https://github.com/romansen47/prcssng-temperature
+[submodule "prcssng-chess"]
+	path = prcssng-chess
+	url = https://github.com/romansen47/prcssng-chess
+[submodule "prcssng-minesweeper"]
+	path = prcssng-minesweeper
+	url = https://github.com/romansen47/prcssng-minesweeper
+[submodule "prcssng-Falcon"]
+	path = prcssng-Falcon
+	url = https://github.com/romansen47/prcssng-Falcon
+[submodule "prcssng-gameoflife"]
+	path = prcssng-gameoflife
+	url = https://github.com/romansen47/prcssng-gameoflife
