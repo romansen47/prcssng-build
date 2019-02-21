@@ -1,5 +1,6 @@
 set mvn=C:\"Program Files"\apache-maven-3.6.0\bin\mvn.cmd
 
+call mvn clean verify sonar:sonar
 call mvn clean install
 
 cd prcssng-temperature

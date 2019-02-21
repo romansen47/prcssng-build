@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>prcssng</groupId>
   <artifactId>build</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.0-snapshot</version>
   <name>prcssng-build</name>
   <packaging>pom</packaging>
   
