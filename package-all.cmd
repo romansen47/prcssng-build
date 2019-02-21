@@ -1,7 +1,6 @@
 set mvn=C:\"Program Files"\apache-maven-3.6.0\bin\mvn.cmd
 
-call mvn clean verify sonar:sonar
-call mvn clean install
+call mvn clean install sonar:sonar
 
 cd prcssng-temperature
 call ant -f temperature.xml
@@ -21,5 +20,5 @@ cd..
 
 cd prcssng-Falcon
 call ant -f falcon.xml
-xcopy data target\data
+xcopy /Y data target\data
 cd..
