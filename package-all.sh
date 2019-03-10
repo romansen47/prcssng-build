@@ -1,6 +1,7 @@
 #!/bin/bash
 
-mvn clean install sonar:sonar
+mvn clean install 
+mvn sonar:sonar javadoc:javadoc
 
 cd prcssng-temperature
 ant -f temperature.xml

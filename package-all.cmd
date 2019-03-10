@@ -1,7 +1,8 @@
 set mvn=C:\"Program Files"\apache-maven-3.6.0\bin\mvn.cmd
 set ant=C:\"Program Files"\apache-ant-1.10.5\bin\ant.cmd
 
-call mvn clean install sonar:sonar
+call mvn clean install 
+call mvn sonar:sonar javadoc:javadoc
 
 cd prcssng-temperature
 call ant -f temperature.xml
