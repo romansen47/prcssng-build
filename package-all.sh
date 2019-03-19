@@ -5,6 +5,10 @@ mvn sonar:sonar javadoc:javadoc
 
 sonar-scanner
 
+cd math
+mvn sonar:sonar
+
+cd ..
 cd prcssng-temperature
 ant -f temperature.xml
 mvn sonar:sonar
