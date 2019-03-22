@@ -21,6 +21,7 @@
 		<module>prcssng-chess</module>
 		<module>prcssng-minesweeper</module>
 		<module>prcssng-temperature</module>
+		<module>prcssng-Falcon</module>
 	</modules>
 
 	<build>
