@@ -1,7 +1,7 @@
 #!/bin/bash
 
-mvn clean install 
-mvn sonar:sonar javadoc:javadoc
+mvn clean install
+#mvn sonar:sonar javadoc:javadoc
 
 sonar-scanner
 
