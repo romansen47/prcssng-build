@@ -19,3 +19,6 @@
 [submodule "prcssng-gameoflife"]
 	path = prcssng-gameoflife
 	url = https://github.com/romansen47/prcssng-gameoflife
+[submodule "definitions"]
+	path = definitions
+	url = https://github.com/romansen47/new-math
