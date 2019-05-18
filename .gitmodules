@@ -1,6 +1,3 @@
-[submodule "math"]
-	path = math
-	url = https://github.com/romansen47/math
 [submodule "prcssng-template"]
 	path = prcssng-template
 	url = https://github.com/romansen47/prcssng-template
