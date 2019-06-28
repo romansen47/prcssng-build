@@ -1,14 +1,7 @@
 #!/bin/bash
 
-mvn clean install
-#mvn sonar:sonar javadoc:javadoc
+mvn clean install sonar:sonar -DskipTests=true
 
-sonar-scanner
-
-cd math
-mvn sonar:sonar
-
-cd ..
 cd prcssng-temperature
 ant -f temperature.xml
 mvn sonar:sonar
@@ -33,5 +26,9 @@ cd prcssng-Falcon
 ant -f falcon.xml
 mvn sonar:sonar
 cp -r data target/
+cd ..
+
+cd definitions
+mvn clean test
 cd ..
 
