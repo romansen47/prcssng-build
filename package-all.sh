@@ -29,6 +29,6 @@ cp -r data target/
 cd ..
 
 cd definitions
-mvn clean test
+mvn clean test sonar:sonar
 cd ..
 
