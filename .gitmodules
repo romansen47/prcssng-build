@@ -19,3 +19,6 @@
 [submodule "definitions"]
 	path = definitions
 	url = https://github.com/romansen47/new-math
+[submodule "deprecatedMath"]
+	path = math
+	url = https://github.com/romansen47/math
