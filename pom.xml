@@ -15,6 +15,7 @@
 	</properties>
 
 	<modules>
+		<module>math</module>
 		<module>definitions</module>
 		<module>prcssng-template</module>
 		<module>prcssng-gameoflife</module>
