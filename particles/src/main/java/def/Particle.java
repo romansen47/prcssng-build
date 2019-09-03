@@ -1,7 +1,7 @@
 package def;
 
-import definitions.structures.abstr.Vector;
-import definitions.structures.abstr.VectorSpace;
+import definitions.structures.abstr.vectorspaces.VectorSpace;
+import definitions.structures.abstr.vectorspaces.vectors.Vector;
 
 public interface Particle {
 
@@ -24,6 +24,5 @@ public interface Particle {
 	VectorSpace getSpace();
 
 	void correctVelocity(double factor, Main main);
-
 	
 }
