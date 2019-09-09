@@ -15,10 +15,11 @@
 	</properties>
 
 	<modules>
+		<module>aop-lib</module>
 		<module>math</module>
 		<module>definitions</module>
 		<module>prcssng-template</module>
-<module>particles</module>
+		<module>particles</module>
 		<module>prcssng-gameoflife</module>
 		<module>prcssng-chess</module>
 		<module>prcssng-minesweeper</module>
