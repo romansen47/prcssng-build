@@ -15,7 +15,6 @@
 	</properties>
 
 	<modules>
-		<module>aop-lib</module>
 		<module>math</module>
 		<module>definitions</module>
 		<module>prcssng-template</module>
