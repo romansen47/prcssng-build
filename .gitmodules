@@ -21,4 +21,4 @@
 	url = https://github.com/romansen47/prcssng-gameoflife
 [submodule "definitions"]
 	path = definitions
-	url = https://github.com/romansen47/new-math
+	url = https://github.com/romansen47/definitions
